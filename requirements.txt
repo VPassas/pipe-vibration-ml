@@ -1,0 +1,6 @@
+# ITC 4568 — Machine Learning final project
+# Python 3.9+ recommended.
+numpy>=1.23
+pandas>=1.5
+scikit-learn>=1.1
+torch>=1.13          # Part 3B 1D-CNN only

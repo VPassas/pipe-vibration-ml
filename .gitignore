@@ -1,0 +1,28 @@
+# ---- Raw dataset & large intermediate data (not version-controlled) ----
+# Ignore everything under src/data, then re-include only the small aggregated
+# sample CSVs so the Part 2/3 scripts are runnable without the 260 MB dataset.
+src/data/*
+!src/data/AGGR_DATA_1.csv
+!src/data/AGGR_DATA_2.csv
+!src/data/AGGR_DATA_ALL.csv
+
+*.zip
+*.rar
+*.7z
+
+# ---- Reports / spec / images (submitted separately; not code) ----
+*.docx
+*.pdf
+pdf/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ---- Editor / tooling ----
+.claude/
+.idea/
+.vscode/
